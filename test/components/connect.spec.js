@@ -5,12 +5,6 @@ import { Provider, connect } from '../../src/index';
 import { Horizon, TestComp } from '../utils';
 
 describe('connect', () => {
-  class Passthrough extends React.Component {
-    render() {
-      return <div {...this.props} />
-    }
-  }
-
   it('should pass horizon as a prop using higher order components', () => {
     const TestCompContainer = connect()(TestComp);
     const wrapper = mount((
