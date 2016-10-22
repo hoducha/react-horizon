@@ -1,12 +1,14 @@
 {
   "name": "react-horizon",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React bindings for Horizon",
   "main": "build/index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
+    "build": "babel src --out-dir build",
+    "prepublish": "babel src --out-dir build",
     "test": "mocha test/setup.js test/**/*.spec.js"
   },
   "repository": {
