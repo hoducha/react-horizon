@@ -1,13 +1,13 @@
 # react-horizon
 React bindings for [Horizon](https://github.com/rethinkdb/horizon)
 
-### Installation
+## Installation
 ```
 npm i -S react-horizon
 ```
 
-### Usage
-**Example Root component:**
+## Usage
+### Example Root component
 ```JavaScript
 import Horizon from '@horizon/client';
 import { Provider } from 'react-horizon';
@@ -22,7 +22,7 @@ export default () => (
 );
 ```
 
-Or if you use Redux:
+**Or if you use Redux:**
 ```JavaScript
 import Horizon from '@horizon/client';
 import { Provider } from 'react-redux';
@@ -41,8 +41,8 @@ export default () => (
 );
 ```
 
-**Example Child component:**
-Decorator style
+### Example Child component
+**Decorator style**
 ```JavaScript
 import React, { Component } from 'react';
 import { connect } from 'react-horizon';
@@ -66,7 +66,7 @@ class TodoList extends Component {
 export default TodoList;
 ```
 
-Higher order components style:
+**Higher order components style**
 ```Javascript
 import React, { Component } from 'react';
 import { connect as horizonConnect } from 'react-horizon';
@@ -90,10 +90,10 @@ TodoList = horizonConnect()(TodoList);
 export default TodoList;
 ```
 
-### Contributing
+## Contributing
 Pull Requests are very welcome!
 
 If you find any issues, please report them via [Github Issues](https://github.com/hoducha/react-horizon/issues)!
 
-### License
-(MIT)
+## License
+React Horizon is available under the [MIT License](https://opensource.org/licenses/MIT)
