@@ -1,6 +1,6 @@
 {
   "name": "react-horizon",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React bindings for Horizon",
   "main": "build/index.js",
   "directories": {
