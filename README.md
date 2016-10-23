@@ -1,3 +1,6 @@
+[![npm version](https://badge.fury.io/js/react-horizon.svg)](https://badge.fury.io/js/react-horizon)
+[![travis-ci](https://travis-ci.org/hoducha/react-horizon.svg?branch=master)](https://travis-ci.org/hoducha/react-horizon)
+
 # react-horizon
 React bindings for [Horizon](https://github.com/rethinkdb/horizon)
 
