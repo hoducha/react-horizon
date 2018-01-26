@@ -1,5 +1,6 @@
 // @flow
-import React, { Component, PropTypes, Children } from 'react';
+import React, { Component, Children } from 'react';
+import PropTypes from 'prop-types';
 
 class Provider extends Component {
   static propTypes = {

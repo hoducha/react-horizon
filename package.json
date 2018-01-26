@@ -1,6 +1,6 @@
 {
   "name": "react-horizon",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "React bindings for Horizon",
   "main": "build/index.js",
   "directories": {
@@ -27,7 +27,7 @@
   "homepage": "https://github.com/hoducha/react-horizon#readme",
   "peerDependencies": {
     "@horizon/client": ">=1.1.1",
-    "react": ">=15.0.2"
+    "react": "^15.0.0 || ^16.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.10.1",
@@ -36,11 +36,14 @@
     "babel-preset-stage-1": "^6.5.0",
     "babel-register": "^6.9.0",
     "chai": "^3.5.0",
-    "enzyme": "^2.5.1",
+    "enzyme": "^3.2.0",
+    "enzyme-adapter-react-16": "^1.1.1",
     "jsdom": "^9.8.0",
     "mocha": "^3.1.2",
-    "react-addons-test-utils": "^15.3.2",
-    "react-dom": "^15.3.2",
+    "react-dom": "^16.0.0",
     "sinon": "^1.17.6"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.0 || ^16.0.0"
   }
 }

@@ -13,7 +13,7 @@ describe('connect', () => {
       </Provider>
     ));
 
-    const stub = wrapper.find(TestComp).nodes[0];
+    const stub = wrapper.find(TestComp).getElement(0);
     expect(stub.props).to.have.keys(['hz']);
   });
 
@@ -31,7 +31,7 @@ describe('connect', () => {
       </Provider>
     ));
 
-    const stub = wrapper.find(TestComp).nodes[0];
+    const stub = wrapper.find(TestComp).getElement(0);
     expect(stub.props).to.have.keys(['hz']);
   });
 });
